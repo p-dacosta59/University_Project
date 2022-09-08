@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Remove prgm
+rm ./prgm &> /dev/null
+
+# Compile, clear screen and run prgm
+g++ ./src/*.cpp -o prgm -lPocoData -lPocoDataMySQL -lPocoFoundation -lsfml-network -lsfml-system -pthread -lwiringPi -std=c++11
