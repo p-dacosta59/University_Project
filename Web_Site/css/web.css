@@ -1,0 +1,325 @@
+/*------------------------------------------------------------------------------
+	WEB : page design
+------------------------------------------------------------------------------*/
+
+/*==============================
+	Layout
+==============================*/
+
+/* Wrapper */
+.wrapper {
+	/* min-height: 100vh; */
+	margin: 0 5vw 0 5vw;
+}
+
+/*==============================
+	Style
+==============================*/
+
+/* Set font */
+* {
+	font-family: "Open Sans", "Arial", "Helvetica", Palatino, sans-serif;
+	font-size: 1.5vw;
+	color: #555555;
+}
+
+/* Header */
+header{
+    width: 80vw;
+    border-radius: 10px;
+    text-align: center;
+	border-style:solid;
+	margin: 0 auto 0 auto;
+    border-width:10px;
+    border-radius:50px 0 50px 0;
+    border-color: grey;
+    background-image: linear-gradient(90deg, #e6e6e6 0%, #afafaf 40%, #353535 60%, #000000 100%);
+}
+
+/* Body */
+body {
+    background-image: url("../images/petit.png"), url("../images/moyen.png"), url("../images/grand.png"), linear-gradient(45deg, #ca0909 0%, #690000 40%, #3f0000 60%, #000000 100%);
+}
+
+/* Section */
+section{
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	width: 80vw;
+	margin: 1.5vw 0 0;
+	padding: 1.5vw 4vw;
+	box-shadow: 1px 1px 2px #e6e6e6aa;
+	border: solid 1px #e6e6e6;
+	border-radius: 10px;
+	text-align: center;
+	text-align: justify;
+}
+
+/* Image */
+img{
+	width: 2vw;
+}
+section img{
+	width: 0.8vw;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+
+/* Table */
+table{
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+table td{
+	padding: 0.5vw;
+	margin: 0;
+	border: solid 0.5px #000000;
+}
+
+/* Input */
+input {
+    width: 15vw;
+    margin: 1vw 5vw 0 5vw;
+    background-color: transparent;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #00000033;
+    font-size: 1vw;
+}
+input, input:before, input:after {
+	-webkit-user-select: initial;
+	-khtml-user-select: initial;
+	-moz-user-select: initial;
+	-ms-user-select: initial;
+	user-select: initial;
+} 
+
+/* Aside */
+aside{
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	width: 25vw;
+	margin: 1.5vw 0 10vw 0;
+	padding: 0 4vw 0;
+	box-shadow: 1px 1px 2px #e6e6e6aa;
+	border: solid 1px #e6e6e6;
+	border-radius: 10px;
+}
+aside article{
+	margin:  0;
+	padding: 0vw;
+}
+
+
+/* Footer */
+footer{
+    position:fixed;
+    top:88vh;
+    left:0vw;
+    display:block;
+    width:100vw;
+    height:25vh;
+    margin-top: 5vh;
+    background-color: black;
+    text-align: center;
+    color:grey;
+}
+
+/* Article */
+article, ul, ol {
+	margin: 1.5vw 0;
+	padding: 1.5vw 4vw;
+	border-left: solid 1px #00002211;
+	border-radius: 0 3px 3px 0;
+	box-shadow: 0 0 1px #bbbbcc44;
+	background-color: #bbbbcc11;
+}
+
+/* Lists */
+li {
+	margin: 5px 0;
+}
+
+/* Links */
+a, a:visited {
+	color: #5599ff;
+	text-decoration: none;
+}
+a:hover {
+	color: #80b3ff;
+}
+a:active {
+	color: #aaccff;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "ZCOOL QingKe HuangYou", "Arial", "Helvetica", Palatino, sans-serif;
+	font-weight: bolder;
+}
+h1 {
+	font-size: 4vw;
+	padding:1px;
+	color:#ffffff;
+	text-shadow: 0px 5px 10px #000000;
+	font-weight: bolder;
+}
+h2 {
+	font-size: 3vw;
+	margin: 1vw 0 2vw 0;
+	padding: 0;
+	color: #00000033;
+	font-weight: bolder;
+	text-align: center;
+}
+h3 {
+	font-size: 2vw;
+}
+
+/*==============================
+	Classes
+==============================*/
+
+/* Colors */
+.red {
+	color: red;
+}
+.orange {
+	color: orange;
+}
+.yellow {
+	color: yellow;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+
+.picture{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 0.4vw;
+	font-size: 0;
+}
+
+.final{
+	border-color: #58f186;
+	border-width: 2px;
+}
+
+.path{
+	border-color: #274eb9;
+	border-width: 2px;
+}
+
+.toHide{
+	display:none;	
+}
+
+.image img{
+	width: 23vw;
+	margin: 1vw;
+	padding: 0;
+}
+
+.mousePosition{
+	position:fixed;
+	top:87vh;
+    display:block;
+    width:10vw;
+	height:10vh;
+	margin: 0;
+	left: 0;
+	padding-left: 1vw;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    color:grey;
+}
+
+.popUp{
+	display:inline-block;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 1;
+}
+
+.picturePop{
+	width: 20vw;
+	height: 20vh;
+	margin: 20vh auto 0 auto;
+	background-color: grey;
+	text-align: center;
+}
+
+.picturePop input{
+	width: 03vw;
+}
+
+/*==============================
+	Responsive design
+==============================*/
+
+/* Media query : mobile */
+@media (max-width: 600px) {
+
+	/* Set font */
+	* {
+		font-size: 12px;
+	}
+
+	/* Aside */
+	aside{
+		margin-bottom: 10vh;
+	}
+}
+
+
+
+/* Media query : tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+	/* Aside */
+	aside{
+		margin-bottom: 10vh;
+		width: 80vw;
+	}
+	aside div{
+		display: inline-block;
+		vertical-align: top;
+		width: 30vw;
+		margin-right: 5vw;
+	}
+}
+
+/* Media query : laptop */
+@media (min-width: 1200px) {
+
+	/* Set font */
+	* {
+		font-size: 16px;
+	}
+	.wrapper{
+		width: 95vw;
+		padding: 0;
+		margin: 0 auto 0 auto;
+	}
+	/* Section */
+	section {
+		width: 60vw;
+		padding: 1vw 2vw 3vw;
+		margin-bottom: 5vw;
+	}
+
+	/* Aside */
+	aside{
+		width: 25vw;
+		padding: 1vw 2vw 3vw;
+	}
+}
