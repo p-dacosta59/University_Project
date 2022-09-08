@@ -1,4 +1,5 @@
-The autonomous car
+<h1>The Autonomous Car</h1/>
+
 The project consisted in creating a fully autonomous car. It was able to follow a predefined circuit while avoiding placed objects. 
 We have developed a website allowing the user to place the route of the car, to place prohibition tags and positioning tags allowing the 
 triangularization of the car. 
